@@ -25,6 +25,7 @@
  */
 
 import React from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 interface ServiceCardProps {
@@ -80,9 +81,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           
           <div className="flex flex-col mt-auto">
             <figure className={`${imageWrapperClasses} mb-4`}>
-              <img 
+              <Image 
                 src={imageSrc} 
                 alt={imageAlt} 
+                width={400}
+                height={400}
                 className={imageClasses}
               />
             </figure>

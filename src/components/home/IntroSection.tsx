@@ -54,7 +54,7 @@ export default function IntroSection() {
             {splitWords(phrase)}
           </h2>
         </div>
-        <div className="col-span-4 md:col-span-6 lg:col-span-6 lg:col-start-5">
+        <div className="col-span-4 md:col-span-6 lg:col-span-6 lg:col-start-5 pt-6">
           <p className="text-lg text-gray-600 leading-relaxed">
             Every journey starts with a single step. Whether you're beginning your fitness journey or looking to break through plateaus, we're here to guide you with expert knowledge, personalized programs, and unwavering support.
           </p>
