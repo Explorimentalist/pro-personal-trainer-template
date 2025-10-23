@@ -86,6 +86,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                 alt={imageAlt} 
                 width={400}
                 height={400}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority={false}
+                unoptimized={imageSrc.startsWith('/images/')}
                 className={imageClasses}
               />
             </figure>

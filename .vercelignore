@@ -1,0 +1,2 @@
+# Ensure images are included in deployment
+!/public/images/**
