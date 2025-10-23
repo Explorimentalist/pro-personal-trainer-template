@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 
 export default function IntroSection() {
-  const refs = useRef([]);
+  const refs = useRef<(HTMLSpanElement | null)[]>([]);
   const container = useRef(null);
 
   const phrase = "We think the life changing benefits of strength-training can be achieved at any stage of life. We have personal trainers in Stoke Newington who'll help you stay accountable, motivated and strong you're in the right place.";
@@ -29,8 +29,8 @@ export default function IntroSection() {
     })
   }
 
-  const splitWords = (phrase) => {
-    const body = [];
+  const splitWords = (phrase: string) => {
+    const body: JSX.Element[] = [];
     phrase.split(" ").forEach((word, i) => {
       const letters = splitLetters(word);
       body.push(<span key={word + "_" + i} className="inline-block mr-2">{letters}</span>)
@@ -38,10 +38,10 @@ export default function IntroSection() {
     return body
   }
 
-  const splitLetters = (word) => {
-    const letters = []
+  const splitLetters = (word: string) => {
+    const letters: JSX.Element[] = []
     word.split("").forEach((letter, i) => {
-      letters.push(<span key={letter + "_" + i} ref={el => {refs.current.push(el)}} className="opacity-20">{letter}</span>)
+      letters.push(<span key={letter + "_" + i} ref={el => {if (el) refs.current.push(el)}} className="opacity-20">{letter}</span>)
     })
     return letters;
   }
