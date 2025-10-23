@@ -1,0 +1,37 @@
+{
+  "headline": "Transform Your Body, Transform Your Life",
+  "subheading": "Get the personalized training and support you need to achieve your fitness goals with proven results",
+  "ctaPrimary": {
+    "text": "Book Free Consultation",
+    "href": "/contact",
+    "variant": "fitness"
+  },
+  "ctaSecondary": {
+    "text": "View Success Stories",
+    "href": "#testimonials",
+    "variant": "fitness-outline"
+  },
+  "heroStats": [
+    {
+      "number": "500+",
+      "label": "Clients Transformed"
+    },
+    {
+      "number": "5",
+      "label": "Years Experience"
+    },
+    {
+      "number": "95%",
+      "label": "Goal Achievement Rate"
+    }
+  ],
+  "backgroundImage": {
+    "src": "/images/hero-training-session.jpg",
+    "alt": "Personal trainer working with client in modern gym"
+  },
+  "trustSignals": [
+    "NASM Certified Personal Trainer",
+    "Nutrition Specialist",
+    "Functional Movement Specialist"
+  ]
+}

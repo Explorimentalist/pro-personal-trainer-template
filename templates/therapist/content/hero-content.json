@@ -1,0 +1,37 @@
+{
+  "headline": "Healing Through Expert Care",
+  "subheading": "Professional therapy services to help you recover, heal, and achieve optimal wellness",
+  "ctaPrimary": {
+    "text": "Schedule Appointment",
+    "href": "/contact",
+    "variant": "default"
+  },
+  "ctaSecondary": {
+    "text": "Learn About Services",
+    "href": "#services",
+    "variant": "outline"
+  },
+  "heroStats": [
+    {
+      "number": "10+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "1000+",
+      "label": "Patients Helped"
+    },
+    {
+      "number": "95%",
+      "label": "Recovery Success Rate"
+    }
+  ],
+  "backgroundImage": {
+    "src": "/images/therapy-session-professional.jpg",
+    "alt": "Professional therapist consultation in calming clinic environment"
+  },
+  "trustSignals": [
+    "Licensed Physical Therapist",
+    "Board Certified",
+    "Insurance Accepted"
+  ]
+}
